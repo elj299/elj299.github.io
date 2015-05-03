@@ -1,28 +1,50 @@
-<!DOCTYPE html>
-My Blog
-<style>
-.top {
-    position:absolute;
-    left:0; right:0;
-    height: 92px;
+<!DOCTYPE html> 
+<style type='text/css'>
+   html, body {height: 100%; margin: 0; background-color:black;}
+   #content {width: 100%; height: 100%}
+   #left {width: 250px; height: 100%; float: left; background-color: black; color: White}
+   #right {margin-left: 250px; height: 100%; background-color: black; color: white}
+	font-size: 20px;
 }
-.left {
-    position:absolute;
-    left:0; top:92px; bottom: 0;
-    width: 178px;
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.main {
-    position: absolute;
-    left:178px; top:92px; right:0; bottom:0;
-}
+a, a:hover, a:active, a:visited { color: white; }
+h1 {font-size: 32;text-align: center}
+h3 {text-align: center;}
 </style>
 
-<div class="top">
-    TOP
+<html>
+<body>
+<div id='content'>
+   <div id='left'>
+   <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/files/Eleisha_CV.pdf">CV</a></li>
+        <li><a href="/publications.html">Publications</a></li>
+    </ul>
+   	 
+   	 <h3> Find me at: </h3>
+   	 <ul>
+   	 	<li><a href="http://www.wilkelab.org">Wilke Lab Page</a></li>
+   	 	<li><a href="https://www.github.com/elj299">Github</a></li>
+   	 	<li><a href="https://www.twitter.com/eleishajackson">Twitter</a></li>
+   	 	<li><a href="https://www.linkedin.com/in/eleishajackson">LinkedIn</a></li>
+   	 </ul>
+   	  
+   	 <h3> Email: </h3>
+   	<p style ="text-align: center"> eleishaljackson@gmail.com </p>
+   	
 </div>
-<div class="left">
-    LEFT
+   <div id='right'>  
+    <h1>Blog</h1>
+	<h2>May 3, 2015</h2>
+	<p> Recently I have decided to further my programming skills and learn some more HTML and CSS. To that end I have begun re-booting my website. My old website was hosted over at Wordpress as is my current personal blog. After our advisor switched our lab website to Github I decided to re-do my website using Github Pages as well. This is the current attempt. In the coming week or so, you might see some changes since the development is an on-going process.  I have decided to keep my personal blog over at wordpress for now but I might switch that over in the future as well. So far this website is developed completely in HTML5 and CSS. If you like what you see, you should check out <a href="http://www.codecademy.com/learn" >Codeacademy</a>. It is a great resource for learning new languages. Most of what I have learned was learned through Codeacademy. It is great for anyone new to programming or people that have been programing but want to learn a new language. I encourage you to check it out. They cover other topics such as Ruby, Python and Javascript so there is plenty to learn. </p> 
+	</div>
 </div>
-<div class="main">
-    MAIN
-</div>
+
+</body>
+</html>
